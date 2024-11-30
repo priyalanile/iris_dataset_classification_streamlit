@@ -13,12 +13,12 @@ Run following commands in VSCODE -> Project folder (that you created in your sys
 >git branch -M main 
 >git remote add origin https://github.com/priyalanile/iris_dataset_classification_streamlit.git 
 >git push -u origin main 
-<br></br>
-### Step 3: Check by refreshing browser that Github Repository is updated now.
+
+Check by refreshing browser that Github Repository is updated now.
 <br></br> 
 #################################################################################################### 
 ><br></br>
-### Step 4: Add any .py or other files that are present in your project folder into Github: 
+### Step 3: Add any .py or other files that are present in your project folder into Github: 
 #'git add .' for staging the files, 
 #'git commit -m "<comments>"' for any comments while committing. 
 #'git push' to finally push the changes onto Github Repo 
@@ -28,7 +28,7 @@ Run following commands in VSCODE -> Project folder (that you created in your sys
 >git push 
 
 <br></br>
-### Step 5: Setting up Python Virtual Environment in VSCODE -> Project folder -> Terminal (DO preferably using CMD i.e. Command Prompt)
+### Step 4: Setting up Python Virtual Environment in VSCODE -> Project folder -> Terminal (DO preferably using CMD i.e. Command Prompt)
 
 #To create a new environment using Conda (Anaconda installation should be in place) from Command prompt in VSCode inside your project directory. 
 >conda create -p venv python==3.9 -y 
@@ -50,7 +50,7 @@ Run following commands in VSCODE -> Project folder (that you created in your sys
 <br></br>
 #################################################################################################### 
 ><br></br>
-### Step 6: Running Streamlit app first time: 
+### Step 5: Running Streamlit app first time: 
 in VSCODE -> Project folder -> Terminal (CMD) (NOte: Don't use powershell here, else it won't work!) 
 #If conda activate didn't give the directory as shown in above step, try to activate it again! 
 >conda activate C:\Users\priya\VS_Code_Projects\4_IRIS_Dataset_Classification_VSCode\venv 
@@ -59,7 +59,7 @@ in VSCODE -> Project folder -> Terminal (CMD) (NOte: Don't use powershell here, 
 ><br></br>
 #################################################################################################### 
 ><br></br>
-## Step 7: When after closing streamlit app, the session doesn't close its running in VSCode: 
+## Step 6: When after closing streamlit app, the session doesn't close its running in VSCode: 
 i) Kill the cmd/powershell terminal sessions. 
 ii) create new terminal CMD session again 
 iii) conda activate C:\Users\priya\VS_Code_Projects\4_IRIS_Dataset_Classification_VSCode\venv 
