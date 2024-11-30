@@ -72,7 +72,7 @@ pip list
 ```
 
 ## 5. Usage: 
-1. 
+1. Make sure the Python Environment we created is activated. 
 ```bash
 conda activate C:\Users\priya\VS_Code_Projects\4_IRIS_Dataset_Classification_VSCode\venv
 ```
