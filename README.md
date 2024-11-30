@@ -1,20 +1,58 @@
-﻿# iris_dataset_classification_streamlit 
- To run it into your system! 
- 
-####################################################################################################
-### Step 1: Login to Github & create a Public/Private repository (without README.md file)
+﻿# Iris Flower Dataset Classification Using Random Forest Classifier:
 
-### Step 2: Setting up Github & Git in VSCode: 
-Run following commands in VSCODE -> Project folder (that you created in your system) -> Terminal (Powershell) 
->echo "# iris_dataset_classification_streamlit" >> README.md 
->git init 
->git add README.md 
->git commit -m "first commit" 
->git branch -M main 
->git remote add origin https://github.com/priyalanile/iris_dataset_classification_streamlit.git 
->git push -u origin main 
+## 1. Project Description/Highlights: 
+- Uses Iris Dataset from Scikit Learn to Classify/Predict the flowers into 'setosa' 'versicolor' 'virginica' based on selected inputs.
+- Allows Selecting the Inputs i.e. Sepal Length, Sepal Width, Petal Length & Petal Width by a Slider through User Interface
+- Show Prediction Immediately on the UI
 
-Check by refreshing browser that Github Repository is updated now.
+## 2. Project Structure: 
+- .gitignore: When integrated in the VSCode, .gitignore ensures that, the python env configuration files, where we install all Python Libraries is not pushed into Github (As it's not needed and users can download while an installation).
+- classification.py: This has all the project code to implement this classifier.
+- requirements.txt: Contains a list of required Python packages for the project.
+
+## 3. Learnings: 
+- Git & GitHub Setup & Commands,
+- VSCode Setup and Python ENV Configuration,
+- Streamlit: User Interface for Quick Proof Of Concepts
+- Scikit Learn Package Usage
+- Model Tuning/Optimization/Validation (will be added as part of Future Implementation)
+
+## 4. Installation: 
+
+- 1. Clone this repository to your local machine using following OR:
+
+```bash
+git clone https://github.com/priyalanile/iris_dataset_classification_streamlit.git
+```
+OR: Run following commands in VSCODE -> Project folder (that you created in your system) -> Terminal (Powershell) after you've Logged in to Github & created a Public/Private repository (without README.md file). 
+Later, Check by refreshing browser that Github Repository is updated now.
+
+```bash
+echo "# iris_dataset_classification_streamlit" >> README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin https://github.com/priyalanile/iris_dataset_classification_streamlit.git 
+git push -u origin main 
+```
+2. Setup the Python Environment (env) using the following commands: 
+
+
+
+## 5. Usage: 
+1. Run the Streamlit App by executing:
+```bash
+streamlit run classification.py
+```
+
+## 6. Possible Future Improvements: 
+- To complete all Exploratory Data Analysis,
+- To compare performance with Other Classifier Models,
+- To implement evaluation
+- To Show Image of the Flower based on prediction
+
+----------------------------------------------------------------------------------------------
 
 ### Step 3: Add any .py or other files that are present in your project folder into Github: 
 #'git add .' for staging the files, 
