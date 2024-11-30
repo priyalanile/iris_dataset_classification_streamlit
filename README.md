@@ -6,7 +6,7 @@
 - Allows Selecting the Inputs i.e. Sepal Length, Sepal Width, Petal Length & Petal Width by a Slider through User Interface
 - Show Prediction Immediately on the UI
 
-~[StreamlitScreenshot](Iris_classification_streamlit.png)
+![](Iris_classification_streamlit.png)
 
 ## 2. Project Structure: 
 - .gitignore: When integrated in the VSCode, .gitignore ensures that, the python env configuration files, where we install all Python Libraries is not pushed into Github (As it's not needed and users can download while an installation). Note: No, you do not add the virtual environment folder (like venv1) to GitHub or any version control system (VCS) like Git. This is because virtual environments are specific to your local machine and should not be shared or committed to version control. The virtual environment can be easily recreated by others using the requirements.txt file, which lists all the dependencies your project needs. 
