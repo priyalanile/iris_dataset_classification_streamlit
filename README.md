@@ -3,6 +3,7 @@
  
 ####################################################################################################
 ### Step 1: Login to Github & create a Public/Private repository (without README.md file)
+
 ### Step 2: Setting up Github & Git in VSCode: 
 Run following commands in VSCODE -> Project folder (that you created in your system) -> Terminal (Powershell) 
 >echo "# iris_dataset_classification_streamlit" >> README.md 
@@ -43,7 +44,6 @@ Check by refreshing browser that Github Repository is updated now.
 
 #To check which libraries are installed: 
 >pip list 
-
 <br></br>
 ### Step 5: Running Streamlit app first time: 
 in VSCODE -> Project folder -> Terminal (CMD) (NOte: Don't use powershell here, else it won't work!) 
