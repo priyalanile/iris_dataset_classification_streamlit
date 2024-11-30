@@ -9,9 +9,11 @@
 ![](Iris_classification_streamlit.png)
 
 ## 2. Project Structure: 
-- .gitignore: When integrated in the VSCode, .gitignore ensures that, the python env configuration files, where we install all Python Libraries is not pushed into Github (As it's not needed and users can download while an installation). Note: No, you do not add the virtual environment folder (like venv1) to GitHub or any version control system (VCS) like Git. This is because virtual environments are specific to your local machine and should not be shared or committed to version control. The virtual environment can be easily recreated by others using the requirements.txt file, which lists all the dependencies your project needs. 
+ 
 - classification.py: This has all the project code to implement this classifier. 
 - requirements.txt: Contains a list of required Python packages for the project.
+- Iris_classification_streamlit.png: It's the screenshot of running streamlit UI which allows to select input values from slider & predicts the output.
+- .gitignore: When integrated in the VSCode, .gitignore ensures that, the python env configuration files, where we install all Python Libraries is not pushed into Github (As it's not needed and users can download while an installation). Note: No, you do not add the virtual environment folder (like venv1) to GitHub or any version control system (VCS) like Git. This is because virtual environments are specific to your local machine and should not be shared or committed to version control. The virtual environment can be easily recreated by others using the requirements.txt file, which lists all the dependencies your project needs.
 
 ## 3. Learnings: 
 - Git & GitHub Setup & Commands,
