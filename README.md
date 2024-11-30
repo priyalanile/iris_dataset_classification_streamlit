@@ -36,7 +36,7 @@ Check by refreshing browser that Github Repository is updated now.
 #Output will be like: 
 (C:\Users\priya\VS_Code_Projects\4_IRIS_Dataset_Classification_VSCode\venv) C:\Users\priya\VS_Code_Projects\4_IRIS_Dataset_Classification_VSCode> 
 
-#To deactive this environment: 
+#To deactivate this environment: 
 >conda deactivate 
 
 #Now when within the env environment, if need to install all python libraries present in requirements.txt: 
@@ -52,7 +52,6 @@ in VSCODE -> Project folder -> Terminal (CMD) (NOte: Don't use powershell here, 
 >streamlit run classification.py 
 #By this, the streamlit app will start running in the background and on the chrome browser.
 
-<br></br>
 ## Step 6: When after closing streamlit app, the session doesn't close its running in VSCode: 
 i) Kill the cmd/powershell terminal sessions. 
 ii) create new terminal CMD session again 
