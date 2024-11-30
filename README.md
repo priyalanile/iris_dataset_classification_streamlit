@@ -14,7 +14,7 @@ Run following commands in VSCODE -> Project folder (that you created in your sys
 >git push -u origin main 
 
 Check by refreshing browser that Github Repository is updated now.
-#################################################################################################### 
+
 ### Step 3: Add any .py or other files that are present in your project folder into Github: 
 #'git add .' for staging the files, 
 #'git commit -m "<comments>"' for any comments while committing. 
