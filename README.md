@@ -1,8 +1,8 @@
 ﻿# iris_dataset_classification_streamlit 
  To run it into your system! 
  
-############################################################################################################## 
-### Step 1: Login to Github & create a Public/Private repository (without README.md file) 
+####################################################################################################
+### Step 1: Login to Github & create a Public/Private repository (without README.md file)
 <br></br>
 ### Step 2: Setting up Github & Git in VSCode: 
 Run following commands in VSCODE -> Project folder (that you created in your system) -> Terminal (Powershell) 
@@ -14,9 +14,9 @@ Run following commands in VSCODE -> Project folder (that you created in your sys
 >git remote add origin https://github.com/priyalanile/iris_dataset_classification_streamlit.git 
 >git push -u origin main 
 <br></br>
-### Step 3: Check by refreshing browser that Github Repository is updated now. 
+### Step 3: Check by refreshing browser that Github Repository is updated now.
 <br></br> 
-############################################################################################################## 
+#################################################################################################### 
 ><br></br>
 ### Step 4: Add any .py or other files that are present in your project folder into Github: 
 #'git add .' for staging the files, 
@@ -28,7 +28,7 @@ Run following commands in VSCODE -> Project folder (that you created in your sys
 >git push 
 
 <br></br>
-### Step 5: Setting up Python Virtual Environment in VSCODE -> Project folder -> Terminal (DO preferably using CMD i.e. Command Prompt) 
+### Step 5: Setting up Python Virtual Environment in VSCODE -> Project folder -> Terminal (DO preferably using CMD i.e. Command Prompt)
 
 #To create a new environment using Conda (Anaconda installation should be in place) from Command prompt in VSCode inside your project directory. 
 >conda create -p venv python==3.9 -y 
@@ -48,7 +48,7 @@ Run following commands in VSCODE -> Project folder (that you created in your sys
 #To check which libraries are installed: 
 >pip list 
 <br></br>
-############################################################################################################## 
+#################################################################################################### 
 ><br></br>
 ### Step 6: Running Streamlit app first time: 
 in VSCODE -> Project folder -> Terminal (CMD) (NOte: Don't use powershell here, else it won't work!) 
@@ -57,7 +57,7 @@ in VSCODE -> Project folder -> Terminal (CMD) (NOte: Don't use powershell here, 
 >streamlit run classification.py 
 #By this, the streamlit app will start running in the background and on the chrome browser. 
 ><br></br>
-############################################################################################################## 
+#################################################################################################### 
 ><br></br>
 ## Step 7: When after closing streamlit app, the session doesn't close its running in VSCode: 
 i) Kill the cmd/powershell terminal sessions. 
@@ -66,7 +66,7 @@ iii) conda activate C:\Users\priya\VS_Code_Projects\4_IRIS_Dataset_Classificatio
 iv) #cd /<folder where streamlit's main code is written, if no other directory, remain there!> 
 >cd Sreamlit_Classification_Folder 
 >streamlit run classification.py 
-############################################################################################################## 
+#################################################################################################### 
 ><br></br>
 ## Note: 
 #No, you do not add the virtual environment folder (like venv1) to GitHub or any version control system (VCS) like Git. 
