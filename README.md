@@ -24,7 +24,6 @@ Check by refreshing browser that Github Repository is updated now.
 >git commit -m "added classification.py and requirements.txt files" 
 >git push 
 
-<br></br>
 ### Step 4: Setting up Python Virtual Environment in VSCODE -> Project folder -> Terminal (DO preferably using CMD i.e. Command Prompt)
 
 #To create a new environment using Conda (Anaconda installation should be in place) from Command prompt in VSCode inside your project directory. 
@@ -44,18 +43,16 @@ Check by refreshing browser that Github Repository is updated now.
 
 #To check which libraries are installed: 
 >pip list 
+
 <br></br>
-#################################################################################################### 
-><br></br>
 ### Step 5: Running Streamlit app first time: 
 in VSCODE -> Project folder -> Terminal (CMD) (NOte: Don't use powershell here, else it won't work!) 
 #If conda activate didn't give the directory as shown in above step, try to activate it again! 
 >conda activate C:\Users\priya\VS_Code_Projects\4_IRIS_Dataset_Classification_VSCode\venv 
 >streamlit run classification.py 
-#By this, the streamlit app will start running in the background and on the chrome browser. 
-><br></br>
-#################################################################################################### 
-><br></br>
+#By this, the streamlit app will start running in the background and on the chrome browser.
+
+<br></br>
 ## Step 6: When after closing streamlit app, the session doesn't close its running in VSCode: 
 i) Kill the cmd/powershell terminal sessions. 
 ii) create new terminal CMD session again 
