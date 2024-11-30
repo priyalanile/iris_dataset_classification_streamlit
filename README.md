@@ -121,4 +121,6 @@ iv) cd /<folder where streamlit's main code is written, if no other directory, r
 ```bash 
 streamlit run classification.py
 ```
-
+3. If you get any error while uploading image into README.md or onto Github like "Rename from 'C:/Users/priya/VS_Code_Projects/4_IRIS_Dataset_Classification_VSCode/.git/objects/info/commit-graph.lock' to 'C:/Users/priya/VS_Code_Projects/4_IRIS_Dataset_Classification_VSCode/.git/objects/info/commit-graph' failed. Should I try again? (y/n) y
+warning: There are too many unreachable loose objects; run 'git prune' to remove them",
+Just delete the commit-graph.lock file from your local directory location 'C:\Users\priya\VS_Code_Projects\4_IRIS_Dataset_Classification_VSCode\.git\objects\info'
