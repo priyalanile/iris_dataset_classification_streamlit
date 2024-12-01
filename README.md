@@ -70,9 +70,9 @@ conda deactivate
 pip install -r requirements.txt 
 ```
 
-- To check which libraries are installed: 
+- To check which libraries are installed (within Powershell Terminal of VSCode: 
 ```bash
-pip list 
+pip list | Select-String -Pattern "ipykernel|numpy|pandas|matplotlib|seaborn|flask|memory_profiler|streamlit|scikit-learn"
 ```
 
 ## 5. Usage: 
