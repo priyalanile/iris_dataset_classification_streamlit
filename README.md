@@ -45,7 +45,7 @@ git push -u origin main
 2. Setup the Python Environment (env) using the following commands: 
 Setting up Python Virtual Environment in VSCODE -> Project folder -> Terminal (DO preferably using CMD i.e. Command Prompt)
 
-- To create a new environment using Conda (Anaconda installation should be in place) from Command prompt in VSCode inside your project directory.
+- To create a new environment using Conda (Anaconda installation should be in place) from Command prompt/Powershell in VSCode inside your project directory.
 
 ```bash
 conda create -p venv python==3.9 -y 
@@ -53,12 +53,18 @@ conda create -p venv python==3.9 -y
 - To activate this newly created environment: (Note: Generally you get this command ready as a part of venv creation log in above step)
 
 ```bash
-conda activate C:\Users\priya\VS_Code_Projects\4_IRIS_Dataset_Classification_VSCode\venv 
+conda activate ./venv 
+#conda activate C:\Users\priya\VS_Code_Projects\4_IRIS_Dataset_Classification_VSCode\venv 
 ```
 
 - Output will be something like: (C:\Users\priya\VS_Code_Projects\4_IRIS_Dataset_Classification_VSCode\venv) C:\Users\priya\VS_Code_Projects\4_IRIS_Dataset_Classification_VSCode>
+  
+- To check which environment is currently being used or which all environments are available
+ ```bash
+conda info --envs
+```
 
-- Incase, you want to deactivate the environment: 
+- In case, you want to deactivate the environment: 
 
 ```bash
 conda deactivate 
@@ -78,7 +84,7 @@ pip list | Select-String -Pattern "ipykernel|numpy|pandas|matplotlib|seaborn|fla
 ## 5. Usage: 
 1. Make sure the Python Environment we created is activated. 
 ```bash
-conda activate C:\Users\priya\VS_Code_Projects\4_IRIS_Dataset_Classification_VSCode\venv
+conda activate ./venv 
 ```
 
 2. Run the Streamlit App within directory where classification.py file is present (having streamlit code within it) by executing:
